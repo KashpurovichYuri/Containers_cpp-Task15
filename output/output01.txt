@@ -1,0 +1,408 @@
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.290035 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.116617 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.293694 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.114607 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.285895 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092143 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.314875 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.091819 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.311615 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092277 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.313766 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092311 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.317949 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.090712 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.328963 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.095598 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.323668 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092937 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.333180 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.094001 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.326793 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092495 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.301333 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092730 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.287007 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.118545 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.285035 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.119915 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.297586 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.113965 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.284181 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.093225 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.316950 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.091911 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.318445 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092123 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.314295 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092173 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.313210 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.095583 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.772477 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.111332 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.435853 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.093361 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.488853 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092263 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.399277 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.146745 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.477740 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.096097 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.483087 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.102171 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.434178 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.093458 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.470963 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.118329 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.317178 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.094023 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.357917 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.126113 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.317450 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.117139 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.288505 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.125613 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.325566 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.095797 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.408115 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.125465 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.427263 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092311 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.291349 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.091957 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.320239 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.095375 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.348195 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.102165 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.411983 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.099738 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.425198 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.113533 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.336901 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.179389 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.454063 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.129088 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.353355 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.096209 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.357997 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.098804 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.344829 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.092076 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.291120 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.094810 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.298015 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.095155 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.307573 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.101139 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.396642 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.094649 (seconds)
+
+Timer "start filling of set" launched ... 
+
+Timer "start filling of set" elapsed 0.378447 (seconds)
+
+Timer "start sort of vector" launched ... 
+
+Timer "start sort of vector" elapsed 0.110329 (seconds)
+
+0.145017 0.146847 0.142947 0.157437 0.155807 0.156883 0.158974 0.164481 0.161834 0.166590 0.163396 0.150666 0.143503 0.142517 0.148793 0.142090 0.158475 0.159222 0.157147 0.156605 0.386238 0.217926 0.244426 0.199638 0.238870 0.241543 0.217089 0.235481 0.158589 0.178958 0.158725 0.144252 0.162783 0.204057 0.213631 0.145674 0.160119 0.174097 0.205991 0.212599 0.168450 0.227031 0.176677 0.178998 0.172414 0.145560 0.149007 0.153786 0.198321 0.189223 
+
+0.058308 0.057303 0.046071 0.045909 0.046138 0.046155 0.045356 0.047798 0.046468 0.047000 0.046247 0.046365 0.059272 0.059957 0.056982 0.046612 0.045955 0.046061 0.046086 0.047791 0.055665 0.046680 0.046131 0.073372 0.048048 0.051085 0.046728 0.059164 0.047011 0.063056 0.058569 0.062806 0.047898 0.062732 0.046155 0.045978 0.047687 0.051082 0.049868 0.056766 0.089694 0.064543 0.048104 0.049401 0.046038 0.047404 0.047577 0.050569 0.047324 0.055164 
+
+
+
+Press any key to continue . . . 
+0.178788 0.052003 
