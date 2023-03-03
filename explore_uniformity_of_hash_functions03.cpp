@@ -53,7 +53,7 @@ int main()
 	//std::array< std::array< std::size_t, 2 >, N > pointsRS;
 	//=> if I will do all for 2D-std::array it won't work but why? => Because there is a question about the size of set_of_strings
 	
-	/*std::cout << "RS Hash Function" << std::endl;
+	std::cout << "RS Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsRS;
 	calculation_of_number_of_collisions < RSHash > (set_of_string, pointsRS);
 	std::cout << std::endl;
@@ -87,16 +87,16 @@ int main()
 	std::vector < std::vector <int> > pointsDJB;
 	calculation_of_number_of_collisions < DJBHash >(set_of_string, pointsDJB);
 	std::cout << std::endl;
-	*/
+	
 	std::cout << "DEK Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsDEK;
 	calculation_of_number_of_collisions < DEKHash >(set_of_string, pointsDEK);
 	std::cout << std::endl;
-	/*
+	
 	std::cout << "AP Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsAP;
 	calculation_of_number_of_collisions < APHash >(set_of_string, pointsAP);
-	std::cout << std::endl;*/
+	std::cout << std::endl;
 
 	system("pause");
 
