@@ -23,14 +23,14 @@ std::set < std::string > make_random_words(std::size_t N, std::size_t length) //
 	return words;
 }
 
-template < 	unsigned int (*Function)(const char*, unsigned int) >
-auto calculation_of_number_of_collisions(const std::set< std::string >& set_of_string, std::vector< std::vector< int> >& points)
+template < 	typename F >
+auto calculation_of_number_of_collisions(F f, const std::set< std::string >& set_of_string, std::vector< std::vector< int> >& points)
 {
 	std::set < std::size_t > collisions;
 	auto num_of_collisions = 0, i = 0;
 	for (const auto& string : set_of_string)
 	{
-		auto pair = collisions.insert(Function(string.c_str(), string.size()));
+		auto pair = collisions.insert(f(string.c_str(), string.size()));
 		auto flag = pair.second;
 		if (!flag)
 			num_of_collisions++;
@@ -46,7 +46,7 @@ auto calculation_of_number_of_collisions(const std::set< std::string >& set_of_s
 
 int main()
 {
-	const std::size_t N = 10000000;
+	const std::size_t N = 1000000;
 	const std::size_t length = 6;
 	std::set< std::string > set_of_string = make_random_words(N, length);
 
@@ -55,47 +55,47 @@ int main()
 	
 	std::cout << "RS Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsRS;
-	calculation_of_number_of_collisions < RSHash > (set_of_string, pointsRS);
+	calculation_of_number_of_collisions(RSHash, set_of_string, pointsRS); // good
 	std::cout << std::endl;
 
 	std::cout << "JS Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsJS;
-	calculation_of_number_of_collisions < JSHash >(set_of_string, pointsJS);
+	calculation_of_number_of_collisions(JSHash, set_of_string, pointsJS); // satisfied
 	std::cout << std::endl;
 
 	std::cout << "PJW Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsPJW;
-	calculation_of_number_of_collisions < PJWHash >(set_of_string, pointsPJW);
+	calculation_of_number_of_collisions(PJWHash, set_of_string, pointsPJW); // bad
 	std::cout << std::endl;
 
 	std::cout << "ELF Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsELF;
-	calculation_of_number_of_collisions < ELFHash >(set_of_string, pointsELF);
+	calculation_of_number_of_collisions(ELFHash, set_of_string, pointsELF); // bad
 	std::cout << std::endl;
 
 	std::cout << "BKDR Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsBKDR;
-	calculation_of_number_of_collisions < BKDRHash >(set_of_string, pointsBKDR);
+	calculation_of_number_of_collisions(BKDRHash, set_of_string, pointsBKDR); // good -> satisfied
 	std::cout << std::endl;
 	
 	std::cout << "SDBM Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsSDBM;
-	calculation_of_number_of_collisions < SDBMHash >(set_of_string, pointsSDBM);
+	calculation_of_number_of_collisions(SDBMHash, set_of_string, pointsSDBM); // good -> satified
 	std::cout << std::endl;
 	
 	std::cout << "DJB Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsDJB;
-	calculation_of_number_of_collisions < DJBHash >(set_of_string, pointsDJB);
+	calculation_of_number_of_collisions(DJBHash, set_of_string, pointsDJB); // good
 	std::cout << std::endl;
 	
 	std::cout << "DEK Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsDEK;
-	calculation_of_number_of_collisions < DEKHash >(set_of_string, pointsDEK);
+	calculation_of_number_of_collisions(DEKHash, set_of_string, pointsDEK); // good
 	std::cout << std::endl;
 	
 	std::cout << "AP Hash Function" << std::endl;
 	std::vector < std::vector <int> > pointsAP;
-	calculation_of_number_of_collisions < APHash >(set_of_string, pointsAP);
+	calculation_of_number_of_collisions(APHash, set_of_string, pointsAP); // good -> satified
 	std::cout << std::endl;
 
 	system("pause");

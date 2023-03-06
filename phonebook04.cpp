@@ -8,46 +8,44 @@
 #include <boost/multi_index/random_access_index.hpp>
 #include <boost/multi_index/composite_key.hpp>
 
-struct Phonebook
+struct Record
 {
 	std::string first_name;
 	std::string second_name;
 	std::string phone_number;
-
-	Phonebook() = default;
 };
 
 using namespace boost::multi_index;
 
 using pnonebook_MultiIndex = multi_index_container
 <
-	Phonebook, indexed_by
+	Record, indexed_by
 	<
 		ordered_non_unique
 			<
 		    	composite_key
 			    	<
-		        		Phonebook,
-		        		member < Phonebook, std::string, &Phonebook::second_name >,
-		        		member < Phonebook, std::string, &Phonebook::first_name >
+		        		Record,
+		        		member < Record, std::string, &Record::second_name >,
+		        		member < Record, std::string, &Record::first_name >
 					>
         	>,
 		random_access
 			< >,
 		hashed_non_unique
-			< member < Phonebook, std::string, &Phonebook::first_name > >,
+			< member < Record, std::string, &Record::first_name > >,
 		hashed_non_unique
-			< member < Phonebook, std::string, &Phonebook::second_name > >,
+			< member < Record, std::string, &Record::second_name > >,
 		hashed_unique
-			< member < Phonebook, std::string, &Phonebook::phone_number > >,
+			< member < Record, std::string, &Record::phone_number > >,
 		hashed_unique
 			<
 				composite_key
 			    	<
-						Phonebook,
-						member < Phonebook, std::string, &Phonebook::second_name >,
-						member < Phonebook, std::string, &Phonebook::first_name >,
-						member < Phonebook, std::string, &Phonebook::phone_number >
+						Record,
+						member < Record, std::string, &Record::second_name >,
+						member < Record, std::string, &Record::first_name >,
+						member < Record, std::string, &Record::phone_number >
 					>
 			>
 	>
