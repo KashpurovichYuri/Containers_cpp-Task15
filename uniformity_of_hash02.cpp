@@ -53,24 +53,24 @@ std::size_t hash_value(const Types & ... args) noexcept
 
 int main()
 {	
-	const auto size = 10000000;
-	const auto length = 10;
-	const auto N = 10000;
+	const auto size = 300000000;
+	const auto length = 6;
+	const auto N = 1000000;
 	auto set_of_unique_strings = make_random_words(size, length);
 
 	std::set < std::size_t > collisions;
 	auto num_of_collisions = 0;
 	auto i = 0;
-
+	std::cout << "1";
 	for (const auto& string : set_of_unique_strings)
 	{
-		auto integral = rand() % N;
-		auto pair = collisions.insert(hash_value(string, integral));
-		auto flag = pair.second;
+		//auto integral = rand() % N;
+		auto [useless, flag] = collisions.insert(hash_value(string));
 		if (!flag)
+		{
 			num_of_collisions++;
-		if (!flag)
 			std::cout << i << " " << num_of_collisions << std::endl;
+		}
 		++i;
 	}
 
