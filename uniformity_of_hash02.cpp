@@ -61,7 +61,6 @@ int main()
 	std::set < std::size_t > collisions;
 	auto num_of_collisions = 0;
 	auto i = 0;
-	std::cout << "1" << std::endl;
 	for (const auto& string : set_of_unique_strings)
 	{
 		//auto integral = rand() % NI;
